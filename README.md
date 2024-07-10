@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+Contador de Clics
+Este proyecto es una aplicación simple de un contador de clics desarrollada con React. La aplicación permite al usuario incrementar y reiniciar el contador mediante botones.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Estructura del Proyecto
+El proyecto está organizado en las siguientes carpetas y archivos:
 
-## Available Scripts
+src: La carpeta principal del código fuente.
+componentes: Contiene los componentes de React utilizados en la aplicación.
+Boton.jsx: Un componente de botón que puede actuar como un botón de clic o de reinicio basado en las propiedades (props) que recibe.
+Contador.jsx: Un componente que muestra el número de clics.
+style-sheets: Contiene las hojas de estilo CSS utilizadas para dar estilo a los componentes.
+Boton.css: Estilos específicos para el componente de botón.
+Contador.css: Estilos específicos para el componente de contador.
+App.css: La hoja de estilo principal para la aplicación.
+App.jsx: El componente principal de la aplicación que maneja el estado del contador y renderiza los componentes Contador y Boton.
+index.js: El punto de entrada principal de la aplicación React.
+Funcionalidad
+Componente App
+El componente principal que:
 
-In the project directory, you can run:
+Importa y aplica los estilos CSS.
+Utiliza el hook useState para manejar el estado del contador.
+Define dos funciones principales:
+manejarClic: Incrementa el número de clics en uno.
+reiniciarContador: Restablece el número de clics a cero.
+Renderiza el componente Contador y dos componentes Boton con diferentes props.
+Componente Contador
+Un componente que:
 
-### `npm start`
+Recibe el número de clics como una prop.
+Muestra el número de clics en la pantalla.
+Componente Boton
+Un componente que:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Recibe tres props: texto, esBotonDeClic, y manejarClic.
+Muestra un botón cuyo estilo y función dependen de si es un botón de clic o de reinicio, según la prop esBotonDeClic.
+Llama a la función manejarClic cuando se hace clic en el botón.
+Estilos CSS
+App.css: Establece el diseño general y la apariencia de la aplicación, incluyendo la disposición de los componentes y el color de fondo.
+Boton.css: Define los estilos para los botones, incluyendo la apariencia de los botones de clic y de reinicio.
+Contador.css: Define los estilos para el componente de contador, incluyendo el tamaño y la fuente del texto que muestra el número de clics.
+Uso de Props
+Los componentes Boton y Contador utilizan props para recibir datos y comportamientos desde el componente App:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contador recibe una prop numClics para mostrar el número actual de clics.
+Boton recibe:
+texto: El texto que se mostrará en el botón.
+esBotonDeClic: Un booleano que determina si el botón es de clic o de reinicio.
+manejarClic: La función que se ejecutará cuando el botón sea clicado.
+![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/8c4d47ea-3072-4cbc-8077-916d4d568910)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/c79deb0a-3ef5-4f93-9180-6e80d43d7730)
