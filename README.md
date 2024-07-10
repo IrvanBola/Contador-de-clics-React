@@ -1,7 +1,7 @@
-<h1>Contador de Clics</h1>
+<title>Contador de Clics</title>
 Este proyecto es una aplicación simple de un contador de clics desarrollada con React. La aplicación permite al usuario incrementar y reiniciar el contador mediante botones.
 
-Estructura del Proyecto
+<h1>Estructura del Proyecto
 El proyecto está organizado en las siguientes carpetas y archivos:
 
 src: La carpeta principal del código fuente.
@@ -47,6 +47,8 @@ Boton recibe:
 texto: El texto que se mostrará en el botón.
 esBotonDeClic: Un booleano que determina si el botón es de clic o de reinicio.
 manejarClic: La función que se ejecutará cuando el botón sea clicado.
+
+
 ![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/8c4d47ea-3072-4cbc-8077-916d4d568910)
 
 ![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/c79deb0a-3ef5-4f93-9180-6e80d43d7730)
