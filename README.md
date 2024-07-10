@@ -56,3 +56,7 @@ Los componentes `Boton` y `Contador` utilizan props para recibir datos y comport
   - `texto`: El texto que se mostrará en el botón.
   - `esBotonDeClic`: Un booleano que determina si el botón es de clic o de reinicio.
   - `manejarClic`: La función que se ejecutará cuando el botón sea clicado.
+
+
+ ![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/8ebb37fb-3e97-400c-9da2-f7aa30db6959)
+
