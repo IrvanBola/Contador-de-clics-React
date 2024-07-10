@@ -1,4 +1,4 @@
-Contador de Clics
+<h1>Contador de Clics</h1>
 Este proyecto es una aplicación simple de un contador de clics desarrollada con React. La aplicación permite al usuario incrementar y reiniciar el contador mediante botones.
 
 Estructura del Proyecto
