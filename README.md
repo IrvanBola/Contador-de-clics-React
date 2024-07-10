@@ -58,5 +58,8 @@ Los componentes `Boton` y `Contador` utilizan props para recibir datos y comport
   - `manejarClic`: La función que se ejecutará cuando el botón sea clicado.
 
 
- ![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/8ebb37fb-3e97-400c-9da2-f7aa30db6959)
+![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/a3a888a3-4321-4d9b-af5e-c430753f87d6)
+
+
+![image](https://github.com/IrvanBola/Contador-de-clics-React/assets/122304883/8ebb37fb-3e97-400c-9da2-f7aa30db6959)
 
